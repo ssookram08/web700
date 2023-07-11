@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap');
+
+.bg-light{
+    background-color: #d9d8eb !important; 
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 2px gray;
+    font-size:26px;
+    color:#3b396f;
+}
+
+a.nav-link{
+    font-family: 'Lobster', cursive;
+}
+
+body, html{ /* from: https://coderwall.com/p/ape0jg/full-page-gradient-background
+    background: #e9e9f4; /* fallback color */
+    background: linear-gradient( to bottom, #8684c0, #e9e9e9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.btn-primary{
+    background-color: #3b396f;
+    border-color: #3b396f;
+}
+
+.btn-primary:hover{
+    background-color: #7976b9;
+    border-color: #8381be;
+}
+
+/* table style */
+
+table.table tr:nth-child(odd) td{
+    background-color: #d9d8eb
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 2px gray;
+
+}
+
+a{
+    color: #484587;
+}
+
+a:hover{
+    color: #2d2b54;
+}
+
+/* Form Styles */
+
+legend{
+    text-shadow: 1px 1px 2px gray;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+    font-family: 'Lobster', cursive;
+    
+}
+
