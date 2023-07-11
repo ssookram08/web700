@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap');
 
 .bg-light{
-    background-color: #d9d8eb !important; 
-    -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    background-color: #faef7b !important; 
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(235, 224, 104, 0.75);
+-moz-box-shadow: 0px 1px 9px 0px rgba(216, 197, 89, 0.75);
 box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
 }
 
@@ -20,7 +20,7 @@ a.nav-link{
 
 body, html{ /* from: https://coderwall.com/p/ape0jg/full-page-gradient-background
     background: #e9e9f4; /* fallback color */
-    background: linear-gradient( to bottom, #8684c0, #e9e9e9);
+    background: linear-gradient( to bottom, #8684c0, #e0cd3a);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -29,12 +29,12 @@ body, html{ /* from: https://coderwall.com/p/ape0jg/full-page-gradient-backgroun
 }
 
 .btn-primary{
-    background-color: #3b396f;
+    background-color: #bfd03f;
     border-color: #3b396f;
 }
 
 .btn-primary:hover{
-    background-color: #7976b9;
+    background-color: #a5b976;
     border-color: #8381be;
 }
 
