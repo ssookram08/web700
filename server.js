@@ -6,15 +6,8 @@
 * (including 3rd party web sites) or distributed to other students.
 *
 * Name: Sameshnie Sookram  Student ID: 169126224  Date: July 25, 2023
-* Online (Cyclic) Link: 
+* Online (Cyclic) Link: https://charming-gear-seal.cyclic.app
 *
-git status
-git add .
-git commit -m "Your commit message here"
-git branch -  to know the branch you are working on
-git push origin master
-
-
 ********************************************************************************/
 
 const {initialize,
