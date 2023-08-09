@@ -1,30 +1,32 @@
 <div class="row">
   <div class="col-md-12">
-    <br>
-    <h2>Courses</h2>
+    <br />
+    <h2>Courses <a href="/courses/add" class="btn btn-success float-right">Add New Course</a></h2>
     <hr />
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Course Code</th>
-                            <th>Course Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{#each courses}}
-                            <tr>
-                                <td><a href="/course/{{this.courseId}}">{{this.courseCode}}</a></td>
-                                <td>{{this.courseDescription}}</td>
-                            </tr>
-                        {{/each}}
-                    </tbody>
-                </table>
-            </div>
+      <div class="table-responsive">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Course Code</th>
+              <th scope="col">Course Description</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each courses as |course|}}
+              <tr>
+                <td scope="row"><a href="/course/{{course.courseId}}">{{course.courseId}}:{{course.courseCode}}</a></td>
+                <td scope="row"><a href="/students?course={{course.courseId}}">{{course.courseDescription}}</a></td>
+                <td scope="row"><a href="/course/delete/{{course.courseId}}">remove</a></td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+  </div>
+  {{#unless courses}}
+    <div class="col-md-12 text-center">
+      <strong>{{message}}</strong>
     </div>
-    {{#unless courses}}
-        <div class="col-md-12 text-center">
-            <strong>{{message}}</strong>
-        </div>
-    {{/unless}}
+  {{/unless}}
 </div>
